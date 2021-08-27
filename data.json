@@ -1,6 +1,60 @@
 [{
-    "title": "Test Slides",
-    "date": "2021/08/27",
-    "context": "test",
-    "link": "test"
-}]
+        "title": "MetaFEND: Multimodal Emergent Fake News Detection via Meta Neural Process Networks",
+        "date": "2021/08/26",
+        "context": "Lab Meeting",
+        "link": "210826_KDD2021_MetaFEND"
+    },
+    {
+        "title": "Bi-GCN: Rumor Detection on Social Media with Bi-Directional Graph Convolutional Networks",
+        "date": "2021/08/12",
+        "context": "Lab Meeting",
+        "link": "210812_AAAI2020_Bi-GCN"
+    },
+    {
+        "title": "FANG: Leveraging Social Context for Fake News Detection Using Graph Representation",
+        "date": "2021/08/05",
+        "context": "Lab Meeting",
+        "link": "210805_CIKM2020_FANG"
+    },
+    {
+        "title": "WeFEND: Weak Supervision for Fake News Detection via Reinforcement Learning",
+        "date": "2021/07/23",
+        "context": "Lab Meeting",
+        "link": "210723_AAAI2020_WeFEND"
+    },
+    {
+        "title": "SAFE: Similarity-Aware Multi-Modal Fake News Detection",
+        "date": "2021/06/17",
+        "context": "Lab Meeting",
+        "link": "210617_PAKDD2020_SAFE"
+    },
+    {
+        "title": "UPFD: User Preference-aware Fake News Detection",
+        "date": "2021/06/03",
+        "context": "Lab Meeting",
+        "link": "210603_SIGIR2021_UPFD"
+    },
+    {
+        "title": "Interest Sustainability-Aware Recommender System",
+        "date": "2021/05/20",
+        "context": "Lab Meeting",
+        "link": "210520_ICDM2020_CRIS"
+    },
+    {
+        "title": "CHAN: Convolutional Hierarchical Attention Network for Query-Focused Video Summarization",
+        "date": "2021/04/29",
+        "context": "Lab Meeting",
+        "link": "210429_AAAI2020_CHAN Query-Focused Video Summarization"
+    },
+    {
+        "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
+        "date": "2021/03/18",
+        "context": "Lab Meeting",
+        "link": "210318_KDD2018_EANN"
+    }, {
+        "title": "MVNN: Exploiting Multi-domain Visual Information for Fake News Detection",
+        "date": "2021/03/04",
+        "context": "Lab Meeting",
+        "link": "210304_ICDM2019_MVNN"
+    }
+]
