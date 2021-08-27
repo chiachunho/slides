@@ -13,7 +13,7 @@ function renderList(data) {
 }
 
 $(document).ready(function () {
-    $.getJSON('/data.json', function (data) {
+    $.getJSON('data.json', function (data) {
         renderList(data);
     });
 });
