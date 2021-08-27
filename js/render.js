@@ -4,7 +4,7 @@ function renderList(data) {
         let item = null;
         item = sample.clone();
         item.attr('id', `item-${i}`);
-        item.attr('href', `${data[i].link}/index.html`);
+        item.attr('href', `${data[i].link}/`);
         item.find('.title').text(data[i].title);
         item.find('.date').text(data[i].date);
         item.find('.context').text(data[i].context);
