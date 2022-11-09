@@ -1,5 +1,5 @@
 {
-  "name": "kdd-lab-website-frontend",
+  "name": "slides",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,9 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "yarn download-webviewer",
+    "download-webviewer": "npx --yes @pdftron/webviewer-downloader"
   },
   "dependencies": {
+    "@pdftron/webviewer": "^8.10.0",
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
