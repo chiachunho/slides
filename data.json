@@ -1,70 +1,337 @@
-[{
-        "title": "Truth be Told: Fake News Detection Using User Reactions on Reddit",
-        "date": "2021/09/10",
-        "context": "Lab Meeting",
-        "link": "210910_CKIM2020_Truth be Told"
-    }, {
-        "title": "Mining Dual Emotion for Fake News Detection",
-        "date": "2021/09/03",
-        "context": "Lab Meeting",
-        "link": "210903_WWW2021_Dual Emotion Features"
-    }, {
-        "title": "MetaFEND: Multimodal Emergent Fake News Detection via Meta Neural Process Networks",
-        "date": "2021/08/26",
-        "context": "Lab Meeting",
-        "link": "210826_KDD2021_MetaFEND"
-    },
-    {
-        "title": "Bi-GCN: Rumor Detection on Social Media with Bi-Directional Graph Convolutional Networks",
-        "date": "2021/08/12",
-        "context": "Lab Meeting",
-        "link": "210812_AAAI2020_Bi-GCN"
-    },
-    {
-        "title": "FANG: Leveraging Social Context for Fake News Detection Using Graph Representation",
-        "date": "2021/08/05",
-        "context": "Lab Meeting",
-        "link": "210805_CIKM2020_FANG"
-    },
-    {
-        "title": "WeFEND: Weak Supervision for Fake News Detection via Reinforcement Learning",
-        "date": "2021/07/23",
-        "context": "Lab Meeting",
-        "link": "210723_AAAI2020_WeFEND"
-    },
-    {
-        "title": "SAFE: Similarity-Aware Multi-Modal Fake News Detection",
-        "date": "2021/06/17",
-        "context": "Lab Meeting",
-        "link": "210617_PAKDD2020_SAFE"
-    },
-    {
-        "title": "UPFD: User Preference-aware Fake News Detection",
-        "date": "2021/06/03",
-        "context": "Lab Meeting",
-        "link": "210603_SIGIR2021_UPFD"
-    },
-    {
-        "title": "Interest Sustainability-Aware Recommender System",
-        "date": "2021/05/20",
-        "context": "Lab Meeting",
-        "link": "210520_ICDM2020_CRIS"
-    },
-    {
-        "title": "CHAN: Convolutional Hierarchical Attention Network for Query-Focused Video Summarization",
-        "date": "2021/04/29",
-        "context": "Lab Meeting",
-        "link": "210429_AAAI2020_CHAN Query-Focused Video Summarization"
-    },
-    {
-        "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
-        "date": "2021/03/18",
-        "context": "Lab Meeting",
-        "link": "210318_KDD2018_EANN"
-    }, {
-        "title": "MVNN: Exploiting Multi-domain Visual Information for Fake News Detection",
-        "date": "2021/03/04",
-        "context": "Lab Meeting",
-        "link": "210304_ICDM2019_MVNN"
-    }
+[
+  {
+    "title": "VLMo: Unified Vision-Language Pre-Training with Mixture-of-Modality-Experts",
+    "date": "2022/10/18",
+    "context": "Lab Meeting",
+    "tags": ["Mixture of Expert", "Multimodal"],
+    "link": "221018_arXiv21_VLMo_MoME"
+  },
+  {
+    "title": "LIIRM: Leveraging Intra and Inter Modality Relationship for Multimodal Fake News Detection",
+    "date": "2022/09/12",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal"],
+    "link": "220912_WWW22_LIIRM"
+  },
+  {
+    "title": "MFAN: Multi-modal Feature-enhanced Attention Networks for Rumor Detection",
+    "date": "2022/08/25",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Multimodal",
+      "Attention",
+      "Model Relationship"
+    ],
+    "link": "220825_IJCAI22_MFAN"
+  },
+  {
+    "title": "MCAN: Multimodal Fusion with Co-Attention Networks for Fake News Detection",
+    "date": "2022/08/08",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal", "Attention"],
+    "link": "220808_IJCNLP2021_MCAN"
+  },
+  {
+    "title": "HMCAN: Hierarchical Multi-modal Contextual Attention Network for Fake News Detection",
+    "date": "2022/07/25",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal"],
+    "link": "220725_SIGIR2021_HMCAN"
+  },
+  {
+    "title": "M3FEND: Memory-Guided Multi-View Multi-Domain Fake News Detection",
+    "date": "2022/07/14",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Cross Domain"],
+    "link": "220714_TKDE2022_M3FEND"
+  },
+  {
+    "title": "FND-CLIP: Multimodal Fake News Detection via CLIP-Guided Learning",
+    "date": "2022/06/16",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Multimodal",
+      "Redundant Information",
+      "Model Relationship"
+    ],
+    "link": "220616_CIKM22_FND-CLIP"
+  },
+  {
+    "title": "A Greedy Algorithm for Budgeted Multiple-Product Profit Maximization in Social Network",
+    "date": "2022/06/06",
+    "context": "MobiSocial 2022",
+    "tags": ["Profit Maximization", "Conference Keynote"],
+    "link": "220606_MobiSocial2022_BG"
+  },
+  {
+    "title": "CMC: Cross-Modal Knowledge Distillation in Multi-Modal Fake News Detection",
+    "date": "2022/06/02",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Multimodal",
+      "Model Relationship",
+      "Deep Mutual Learning"
+    ],
+    "link": "220602_ICASSP22_CMC"
+  },
+  {
+    "title": "CAFE: Cross-modal Ambiguity Learning for Multimodal Fake News Detection",
+    "date": "2022/05/19",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal", "Model Relationship"],
+    "link": "220519_WWW2022_CAFE"
+  },
+  {
+    "title": "GET: Evidence-aware Fake News Detection with Graph Neural Networks",
+    "date": "2022/05/04",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal", "Redundant Information"],
+    "link": "220504_WWW2022_GET"
+  },
+  {
+    "title": "KMGCN: Fake News Detection via Knowledge-driven Multimodal Graph Convolutional Networks",
+    "date": "2022/04/28",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Multimodal",
+      "Redundant Information",
+      "Newly-Emerged Event"
+    ],
+    "link": "220428_ICMR2020_KMGCN"
+  },
+  {
+    "title": "GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media",
+    "date": "2022/04/14",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Social Network"],
+    "link": "220414_ACL2020_GCAN"
+  },
+  {
+    "title": "EDDFN: Embracing Domain Differences in Fake News: Cross-domain Fake News Detection using Multi-modal Data",
+    "date": "2022/03/31",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal", "Cross Domain"],
+    "link": "220331_AAAI2021_EDDFN"
+  },
+  {
+    "title": "EM-FEND: Improving Fake News Detection by Using an Entity-enhanced Framework to Fuse Diverse Multimodal Clues",
+    "date": "2022/03/17",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal"],
+    "link": "220317_MM2021_EM-FEND"
+  },
+  {
+    "title": "Pref-FEND: Integrating Pattern- and Fact-based Fake News Detection via Model Preference Learning",
+    "date": "2022/03/03",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Text"],
+    "link": "220303_CIKM2021_Pref-FEND"
+  },
+  {
+    "title": "Hetero-SCAN: Meta-Path-based Fake News Detection Leveraging Multi-level Social Context Information",
+    "date": "2022/02/24",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Social Network",
+      "Knowledge Graph",
+      "Post Propagation"
+    ],
+    "link": "220224_WWW2022_Hetero-SCAN"
+  },
+  {
+    "title": "MDFEND: Multi-domain Fake News Detection",
+    "date": "2022/02/17",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Text",
+      "Cross Domain",
+      "Mixture of Expert"
+    ],
+    "link": "220217_CIKM2021_MDFEND"
+  },
+  {
+    "title": "SpotFake: A Multi-modal Framework for Fake News Detection (& SpotFake+)",
+    "date": "2022/01/27",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal"],
+    "link": "220127_BigMM2019_SpotFake_AAAI2020_SpotFake+"
+  },
+  {
+    "title": "MVAE: Multimodal Variational Autoencoder for Fake News Detection",
+    "date": "2022/01/18",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal", "Auto Encoder"],
+    "link": "220118_WWW2019_MVAE"
+  },
+  {
+    "title": "Cross-lingual COVID-19 Fake News Detection",
+    "date": "2022/01/11",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Text", "Cross Lingual"],
+    "link": "220111_ICDMW2021_CrossFake"
+  },
+  {
+    "title": "SAFE: Similarity-Aware Multi-Modal Fake News Detection",
+    "date": "2021/12/09",
+    "context": "Data Mining",
+    "tags": [
+      "Fake News Detection",
+      "Multimodal",
+      "Model Relationship",
+      "Course Report"
+    ],
+    "link": "211209_PAKDD2020_SAFE_DM"
+  },
+  {
+    "title": "DIDAN: Detecting Cross-Modal Inconsistency to Defend Against Neural Fake News",
+    "date": "2021/11/16",
+    "context": "Lab Meeting",
+    "tags": ["Fake News", "Neural News", "Model Relationship"],
+    "link": "211116_EMNLP2020_DIDAN"
+  },
+  {
+    "title": "R-GNN: Recurrent Graph Neural Networks for Rumor Detection in Online Forums",
+    "date": "2021/10/19",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Social Network", "Post Propagation"],
+    "link": "211019_KDDMIS22021_R-GNN"
+  },
+  {
+    "title": "Multimodal Detection of Information Disorder from Social Media",
+    "date": "2021/10/12",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal"],
+    "link": "211012_CBMI2021_Multimodal Detection of Information Disorder"
+  },
+  {
+    "title": "Causal Understanding of Fake News Dissemination on Social Media",
+    "date": "2021/10/05",
+    "context": "Lab Meeting",
+    "tags": ["Social Network", "Causal Understanding", "Historical Posts"],
+    "link": "211005_KDD2021_Causal Understanding"
+  },
+  {
+    "title": "AA-HGNN: Adversarial Active Learning Based Heterogeneous Graph Neural Network for Fake News Detection",
+    "date": "2021/09/28",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Social Network",
+      "Newly-Emerged Event",
+      "Post Propagation"
+    ],
+    "link": "210928_ICDM2020_AA-HGNN"
+  },
+  {
+    "title": "Truth be Told: Fake News Detection Using User Reactions on Reddit",
+    "date": "2021/09/20",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Social Network", "User Comments"],
+    "link": "210910_CKIM2020_Truth be Told"
+  },
+  {
+    "title": "Mining Dual Emotion for Fake News Detection",
+    "date": "2021/09/03",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Social Network", "Emotion Data"],
+    "link": "210903_WWW2021_Dual Emotion Features"
+  },
+  {
+    "title": "MetaFEND: Multimodal Emergent Fake News Detection via Meta Neural Process Networks",
+    "date": "2021/08/26",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Multimodal",
+      "Newly-Emerged Event",
+      "Few Shot Learning",
+      "Meta Learning"
+    ],
+    "link": "210826_KDD2021_MetaFEND"
+  },
+  {
+    "title": "Bi-GCN: Rumor Detection on Social Media with Bi-Directional Graph Convolutional Networks",
+    "date": "2021/08/12",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Social Network"],
+    "link": "210812_AAAI2020_Bi-GCN"
+  },
+  {
+    "title": "FANG: Leveraging Social Context for Fake News Detection Using Graph Representation",
+    "date": "2021/08/05",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Social Network", "Post Propagation"],
+    "link": "210805_CIKM2020_FANG"
+  },
+  {
+    "title": "WeFEND: Weak Supervision for Fake News Detection via Reinforcement Learning",
+    "date": "2021/07/23",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Text",
+      "Newly-Emerged Event",
+      "Reinforcement Learning"
+    ],
+    "link": "210723_AAAI2020_WeFEND"
+  },
+  {
+    "title": "SAFE: Similarity-Aware Multi-Modal Fake News Detection",
+    "date": "2021/06/17",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Multimodal", "Model Relationship"],
+    "link": "210617_PAKDD2020_SAFE"
+  },
+  {
+    "title": "UPFD: User Preference-aware Fake News Detection",
+    "date": "2021/06/03",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Social Network",
+      "Historical Posts",
+      "Post Propagation"
+    ],
+    "link": "210603_SIGIR2021_UPFD"
+  },
+  {
+    "title": "Interest Sustainability-Aware Recommender System",
+    "date": "2021/05/20",
+    "context": "Lab Meeting",
+    "tags": ["Recommender System"],
+    "link": "210520_ICDM2020_CRIS"
+  },
+  {
+    "title": "CHAN: Convolutional Hierarchical Attention Network for Query-Focused Video Summarization",
+    "date": "2021/04/29",
+    "context": "Lab Meeting",
+    "tags": ["Video Summarization", "Attention"],
+    "link": "210429_AAAI2020_CHAN Query-Focused Video Summarization"
+  },
+  {
+    "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
+    "date": "2021/03/18",
+    "context": "Lab Meeting",
+    "tags": [
+      "Fake News Detection",
+      "Multimodal",
+      "Newly-Emerged Event",
+      "Adversarial Network",
+      "Event-invariant"
+    ],
+    "link": "210318_KDD2018_EANN"
+  },
+  {
+    "title": "MVNN: Exploiting Multi-domain Visual Information for Fake News Detection",
+    "date": "2021/03/04",
+    "context": "Lab Meeting",
+    "tags": ["Fake News Detection", "Image", "Attention"],
+    "link": "210304_ICDM2019_MVNN"
+  }
 ]
