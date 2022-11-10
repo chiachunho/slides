@@ -1,9 +1,20 @@
+import Head from "next/head";
 import Link from "next/link";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <div className="min-h-screen flex flex-col">
+      <Head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>Jeffery&apos;s Slides</title>
+        <meta property="og:title" content="Jeffery's Slides" />
+        <meta property="og:site_name" content="Jeffery's Slides" />
+        <meta property="og:url" content="slides.jefferyho.cc" />
+      </Head>
       <nav className="flex flex-row items-center justify-between p-3 bg-cyan-50">
         <Link href="/">
           <div className="grow-0 font-medium text-md text-cyan-900 flex flex-row items-center cursor-pointer">
